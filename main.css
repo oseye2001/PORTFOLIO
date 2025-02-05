@@ -1,0 +1,87 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  #a-propos h2 {
+    font-size: 2,5rem; /* Taille augmentée pour le titre */
+    font-weight: bold; /* Titre en gras */
+    color: #222; /* Couleur personnalisée */
+  }
+  
+  #a-propos p {
+    font-size: 2rem; /* Augmente la taille du texte */
+    font-weight: bold; /* Texte en gras */
+    line-height: 1.8; /* Espacement entre les lignes */
+    color: #444; /* Couleur personnalisée */
+  }
+  h1, h2 {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Hero section */
+  .hero {
+    background-color: rgba(0, 0, 0, 0.5); /* Fond plus sombre pour plus de contraste */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .hero .btn {
+    font-size: 1.1rem;
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+  
+  /* Project Cards */
+  .project-card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contact section */
+  #contact a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    color: #007bff;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #333;
+  }
+  .img-fluid {
+    width: 50px;  /* Ajuste cette valeur selon la taille souhaitée */
+    height: 50px; /* La hauteur doit être égale à la largeur pour garder la forme ronde */
+    border-radius: 50%; /* Pour rendre l'image ronde */
+  }
